@@ -1,0 +1,11 @@
+<odoo>
+  <data>
+    Three views are going to be inherited here if we go with a button click.
+    we can place buttons in sales, products and customer in order to export/import.
+    the inherit will go only in the form view and two actions will be added, one ex one im.
+    this is considered to be the easy part.
+    if we need a cron to be scheduled then also we will have a new xml file which will contain the 
+    cron defined with the action from the corresponding email.
+    
+  </data>
+</odoo>
