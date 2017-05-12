@@ -28,4 +28,20 @@ File-transfer takes place over simple FTP "letter-box", where structured `input`
 </item>
 </Product>
 ```
+# This is the initial XML structure for one order (without products) exported from odoo:
+```
+<Order>
+<item>
+<status>invoiced</status>
+<amount_untaxed>212.74</amount_untaxed>
+<name>SO1021</name>
+<confirmation_date>2017-05-11 12:15:37</confirmation_date>
+<order_id>1021</order_id>
+<amount_tax>39.11</amount_tax>
+<partner_name>Janosh Umpelkirch</partner_name>
+<partner_id>11054</partner_id>
+<amount_total>251.85</amount_total>
+</item>
+</Order>
+```
 ## We extend and keep the structure of product with <item>
