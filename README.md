@@ -12,6 +12,8 @@ With XEDO, we aim to provide an open-sourced XML data-format specification to ge
 
 File-transfer takes place over simple FTP "letter-box", where structured `input` and `output` folders allow for data-exchange.
 
+Here's a [short video](https://www.youtube.com/watch?v=L6wbrnvieiw) which explains in other words.
+
 # This is the initial XML structure for one product exported from odoo:
 ```
 <Product>
