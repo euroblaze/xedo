@@ -11,3 +11,20 @@ It is too difficult (and expensive) to develop and maintain connectors among ERP
 With XEDO, we aim to provide an open-sourced XML data-format specification to get data _into_ (imports) and _out of_ (exports) odoo. ERP-Systems which can deliver data according to the XEDO specification can expect it to be easily imported into odoo, and hence prepared to thereafter apply business-process to the data.
 
 File-transfer takes place over simple FTP "letter-box", where structured `input` and `output` folders allow for data-exchange.
+
+#This is the initial XML structure for one product exported from odoo:
+
+<Product>
+<item>
+<available>1</available>
+<isbn/>
+<name>ARMANI 06235 V8 12</name>
+<price>179.95</price>
+<barcode>False</barcode>
+<description><strong>ARMANI 06235 V8 12</strong><br /><h1>ARMANI JEANS</h1><h1>06235 V8 12</h1><p><b>Laptoptasche<br /></b></p><p>Farbe: Schwarz<br /></p><p>Metall ARMANI JEANS Logo<br /></p><p>1 Reißverschlussfach innen <br /></p><p>B 34cm x H 26cm x T11cm</p><p>2 Steckfächer innen<br /></p><p>ein Handyfach</p><p>Raumteiler,Trennwand</p><p>Schultergurt (Länge ca.80-120cm)</p><p>in der Hand tragbar, über Schulter tragbar<span><span><br /></span></span></p><p> </p></description>
+<cost>0.0</cost>
+<internal_reference>2899022604710</internal_reference>
+<stock>1.0</stock>
+</item>
+</Product>
+## We extend and keep the structure of product with <item>
