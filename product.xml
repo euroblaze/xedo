@@ -11,7 +11,6 @@
   </description>
   <internal_reference>2899022604710</internal_reference>
   <stock>1.0</stock>
-  <cost>0.0</cost>
   <media>
     <url type='pic'>https://myserver.com/file/path.jpg</url>
     <url type='video'>https://myserver.com/file/path.mp4</url>
