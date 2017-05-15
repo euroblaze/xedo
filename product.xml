@@ -1,7 +1,7 @@
 <Product>
   <active>1</active>
   <name>ARMANI 06235 V8 12</name>
-  <price>179.95</price>
+  <price>179.95 EUR</price>
   <barcode>False</barcode>
   <description>
      ARMANI 06235 V8 12ARMANI JEANS06235 V8 12 Laptoptasche Farbe: Schwarz
@@ -17,7 +17,16 @@
     <url type='file'>https://myserver.com/file/path.pdf</url>
   </media>
   <variantset>
-    <variant dimension='color'>RED, blue</variant>
-    <variant dimension='size'>L, XL</variant>
+    <variant id='ar_123'>
+      <dimensions>
+        <dimension type='color'>RED</dimension>
+        <dimension type='size'>XL</dimension>
+      </dimensions>
+      <title>Red Armani Jeans</title>
+      <price>15.95 EUR</price>
+      <media>
+        <url type='pic'>https://myserver.com/file/variant.jpg</url>
+      </media>
+    </variant>
   </variantset>
 </Product>
