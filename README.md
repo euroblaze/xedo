@@ -16,27 +16,12 @@ File-transfer takes place over simple FTP "letter-box", where structured `input`
 
 ### Simplest Product-XML
 
-This is the initial XML structure for one product imported into odoo:
-```
-<Product>
-<item>
-<available>1</available>
-<isbn/>
-<name>ARMANI 06235 V8 12</name>
-<price>179.95</price>
-<barcode>False</barcode>
-<description>
-ARMANI 06235 V8 12ARMANI JEANS06235 V8 12 Laptoptasche Farbe: SchwarzMetall ARMANI JEANS Logo1 Reißverschlussfach innen B 34cm x H 26cm x T11cm2 Steckfächer innenein HandyfachRaumteiler, <strong>TrennwandSchultergurt</strong> (Länge ca.80-120cm)in der Hand tragbar, über Schulter <span class="font-color: red;">tragbar</span>
-</description>
-<cost>0.0</cost>
-<internal_reference>2899022604710</internal_reference>
-<stock>1.0</stock>
-</item>
-</Product>
-```
+This is the initial XML structure for one product exchanged between random 3rd-party system (PIM, CMS etc) and odoo (random_system --> odoo):
+https://github.com/euroblaze/xedo/blob/v1.0/product.xml
+
 ### Simplest Order-XML (order.xml)
 
-This is the initial XML structure for one order exported from odoo:
+This is the initial XML structure for one order exported from odoo (random_system --> odoo):
 https://github.com/euroblaze/xedo/blob/v1.0/order.xml
 
 ## Sponsor
