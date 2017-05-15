@@ -89,4 +89,4 @@ This is the initial XML structure for one order exported from odoo:
 
 Simplify-ERP, inspired by it's experiences in the E-Commerce industry initiated the development of XEDO, including the initial definitions of XML, and a reference implementation for E-Commerce companies.
 
-Their products can be found at [simplify-erp.com/xedo](https://www.simplify-erp.com/video/xedo-xml-import-u-export-von-erp-systemen-mit-odoo/)
+Their products can be found at [simplify-erp.com/xedo](https://www.simplify-erp.com/odoo-komplettloesungen/e-commerce/xedo-xml-erp-data-exchange-mit-odoo/)
