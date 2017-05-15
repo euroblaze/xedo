@@ -1,6 +1,5 @@
 <Product>
-  <available>1</available>
-  <isbn/>
+  <active>1</active>
   <name>ARMANI 06235 V8 12</name>
   <price>179.95</price>
   <barcode>False</barcode>
@@ -10,7 +9,16 @@
      Steckfächer innenein HandyfachRaumteiler, <strong>TrennwandSchultergurt</strong> (Länge ca.80-120cm)
      in der Hand tragbar, über Schulter <span class="font-color: red;">tragbar</span>
   </description>
-  <cost>0.0</cost>
   <internal_reference>2899022604710</internal_reference>
   <stock>1.0</stock>
+  <cost>0.0</cost>
+  <media>
+    <url type='pic'>https://myserver.com/file/path.jpg</url>
+    <url type='video'>https://myserver.com/file/path.mp4</url>
+    <url type='file'>https://myserver.com/file/path.pdf</url>
+  </media>
+  <variantset>
+    <variant dimension='color'>RED, blue</variant>
+    <variant dimension='size'>L, XL</variant>
+  </variantset>
 </Product>
