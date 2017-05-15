@@ -12,7 +12,11 @@ With XEDO, we aim to provide an open-sourced XML data-format specification to ge
 
 File-transfer takes place over simple FTP "letter-box", where structured `input` and `output` folders allow for data-exchange.
 
-# This is the initial XML structure for one product exported from odoo:
+## Reference XML for Commerce
+
+### Simplest Product-XML
+
+This is the initial XML structure for one product exported from odoo:
 ```
 <Product>
 <item>
@@ -21,27 +25,68 @@ File-transfer takes place over simple FTP "letter-box", where structured `input`
 <name>ARMANI 06235 V8 12</name>
 <price>179.95</price>
 <barcode>False</barcode>
-<description><strong>ARMANI 06235 V8 12</strong><br /><h1>ARMANI JEANS</h1><h1>06235 V8 12</h1><p><b>Laptoptasche<br /></b></p><p>Farbe: Schwarz<br /></p><p>Metall ARMANI JEANS Logo<br /></p><p>1 Reißverschlussfach innen <br /></p><p>B 34cm x H 26cm x T11cm</p><p>2 Steckfächer innen<br /></p><p>ein Handyfach</p><p>Raumteiler,Trennwand</p><p>Schultergurt (Länge ca.80-120cm)</p><p>in der Hand tragbar, über Schulter tragbar<span><span><br /></span></span></p><p> </p></description>
+<description>
+ARMANI 06235 V8 12ARMANI JEANS06235 V8 12 Laptoptasche Farbe: SchwarzMetall ARMANI JEANS Logo1 Reißverschlussfach innen B 34cm x H 26cm x T11cm2 Steckfächer innenein HandyfachRaumteiler, <strong>TrennwandSchultergurt</strong> (Länge ca.80-120cm)in der Hand tragbar, über Schulter <span class="font-color: red;">tragbar</span>
+</description>
 <cost>0.0</cost>
 <internal_reference>2899022604710</internal_reference>
 <stock>1.0</stock>
 </item>
 </Product>
 ```
-# This is the initial XML structure for one order (without products) exported from odoo:
+### Simplest Order-XML (order_0.1.xml)
+
+This is the initial XML structure for one order exported from odoo:
 ```
-<Order>
-<item>
-<status>invoiced</status>
-<amount_untaxed>212.74</amount_untaxed>
-<name>SO1021</name>
-<confirmation_date>2017-05-11 12:15:37</confirmation_date>
-<order_id>1021</order_id>
-<amount_tax>39.11</amount_tax>
-<partner_name>Janosh Umpelkirch</partner_name>
-<partner_id>11054</partner_id>
-<amount_total>251.85</amount_total>
+<Order id=abc1234>
+  <billing_status>invoiced</billing_status>
+  <shipping_status>unshipped</shipping_status>
+  <customer id=xy_12345>
+    <firstname>Сашо</firstname>
+    <lastname>Müller</lastname>
+    <billing_address>
+      <street></street>
+      <house_number></house_number>
+      <additional_street></additional_street>
+      <postal_code></postal_code>
+      <city></city>
+      <country></country>
+    </billing_address>
+    <shipping_address>
+      <street></street>
+      <house_number></house_number>
+      <additional_street></additional_street>
+      <postal_code></postal_code>
+      <city></city>
+      <country></country>
+    </shipping_address>
+  </customer>
+  <item position_number=1>
+    <odoo_article_number>invoiced</odoo_article_number>
+    <amount_untaxed>212.74</amount_untaxed>
+    <name>SO1021</name>
+    <confirmation_date>2017-05-11 12:15:37</confirmation_date>
+    <order_id>1021</order_id>
+    <amount_tax>39.11</amount_tax>
+    <partner_name>Janosh Umpelkirch</partner_name>
+    <partner_id>11054</partner_id>
+    <amount_total>251.85</amount_total>
+  </item>
+<item position_number=2>
+  <amount_untaxed>212.74</amount_untaxed>
+  <name>SO1021</name>
+  <confirmation_date>2017-05-11 12:15:37</confirmation_date>
+  <order_id>1021</order_id>
+  <amount_tax>39.11</amount_tax>
+  <partner_name>Janosh Umpelkirch</partner_name>
+  <partner_id>11054</partner_id>
+  <amount_total>251.85</amount_total>
 </item>
 </Order>
 ```
-## We extend and keep the structure of product with <item>
+
+## Sponsor
+
+Simplify-ERP, inspired by it's experiences in the E-Commerce industry initiated the development of XEDO, including the initial definitions of XML, and a reference implementation for E-Commerce companies.
+
+Their products can be found at [simplify-erp.com/xedo](https://www.simplify-erp.com/video/xedo-xml-import-u-export-von-erp-systemen-mit-odoo/)
