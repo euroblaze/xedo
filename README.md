@@ -16,7 +16,7 @@ File-transfer takes place over simple FTP "letter-box", where structured `input`
 
 ### Simplest Product-XML
 
-This is the initial XML structure for one product exported from odoo:
+This is the initial XML structure for one product imported into odoo:
 ```
 <Product>
 <item>
@@ -34,56 +34,10 @@ ARMANI 06235 V8 12ARMANI JEANS06235 V8 12 Laptoptasche Farbe: SchwarzMetall ARMA
 </item>
 </Product>
 ```
-### Simplest Order-XML (order_0.1.xml)
+### Simplest Order-XML (order.xml)
 
 This is the initial XML structure for one order exported from odoo:
-```
-<Order id=abc1234>
-  <billing_status>invoiced</billing_status>
-  <shipping_status>unshipped</shipping_status>
-  <customer id=xy_12345>
-    <firstname>Сашо</firstname>
-    <lastname>Müller</lastname>
-    <billing_address>
-      <street></street>
-      <house_number></house_number>
-      <additional_street></additional_street>
-      <postal_code></postal_code>
-      <city></city>
-      <country></country>
-    </billing_address>
-    <shipping_address>
-      <street></street>
-      <house_number></house_number>
-      <additional_street></additional_street>
-      <postal_code></postal_code>
-      <city></city>
-      <country></country>
-    </shipping_address>
-  </customer>
-  <item position_number=1>
-    <odoo_article_number>invoiced</odoo_article_number>
-    <amount_untaxed>212.74</amount_untaxed>
-    <name>SO1021</name>
-    <confirmation_date>2017-05-11 12:15:37</confirmation_date>
-    <order_id>1021</order_id>
-    <amount_tax>39.11</amount_tax>
-    <partner_name>Janosh Umpelkirch</partner_name>
-    <partner_id>11054</partner_id>
-    <amount_total>251.85</amount_total>
-  </item>
-<item position_number=2>
-  <amount_untaxed>212.74</amount_untaxed>
-  <name>SO1021</name>
-  <confirmation_date>2017-05-11 12:15:37</confirmation_date>
-  <order_id>1021</order_id>
-  <amount_tax>39.11</amount_tax>
-  <partner_name>Janosh Umpelkirch</partner_name>
-  <partner_id>11054</partner_id>
-  <amount_total>251.85</amount_total>
-</item>
-</Order>
-```
+https://github.com/euroblaze/xedo/blob/v1.0/order.xml
 
 ## Sponsor
 
