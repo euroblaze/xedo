@@ -16,12 +16,12 @@ File-transfer takes place over simple FTP "letter-box", where structured `input`
 
 ## Reference XML for Commerce
 
-### Simplest Product-XML
+### Reference product.xml
 
 This is the initial XML structure for one product exchanged between random 3rd-party system (PIM, CMS etc) and odoo (random_system --> odoo):
 https://github.com/euroblaze/xedo/blob/v1.0/product.xml
 
-### Simplest Order-XML (order.xml)
+### Reference order.xml
 
 This is the initial XML structure for one order exported from odoo (random_system --> odoo):
 https://github.com/euroblaze/xedo/blob/v1.0/order.xml
