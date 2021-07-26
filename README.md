@@ -12,7 +12,7 @@ With XEDO, we aim to provide an open-sourced XML data-format specification to ge
 
 File-transfer takes place over simple FTP "letter-box", where structured `input` and `output` folders allow for data-exchange.
 
-![XML Dataexchange for odoo](http://www.simplify-erp.com/wp-content/uploads/2017/05/xedo-XML-odoo.png)
+![XML Dataexchange for odoo](https://simplify-erp.com/web/image/27414-8f39408b/Simplify-ERP-Multichannel-E-Commerce.png)
 
 ## Reference XML for Commerce
 
