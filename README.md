@@ -28,6 +28,6 @@ https://github.com/euroblaze/xedo/blob/v1.0/order.xml
 
 ## Sponsor
 
-Simplify-ERP, inspired by it's experiences in the E-Commerce industry initiated the development of XEDO, including the initial definitions of XML, and a reference implementation for E-Commerce companies.
+Simplify-ERP®, inspired by its experiences in the E-Commerce industry initiated the development of XEDO, including the initial definitions of XML, and a reference implementation for E-Commerce companies.
 
-Their products can be found at [simplify-erp.com/xedo](https://www.simplify-erp.com/odoo-komplettloesungen/e-commerce/xedo-xml-erp-data-exchange-mit-odoo/)
+Their products and services can be found at [simplify-erp.com/xedo](https://www.simplify-erp.com/)
