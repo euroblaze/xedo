@@ -27,7 +27,7 @@
   <item position_number=1>
     <odoo_article_number>1234</odoo_article_number>
     <pos_article_number>SO1021</pos_article_number>
-    <pos_article_titel>SO1021</pos_article_titel>
+    <pos_article_titel>Reference implementation of Space-X rocket engine</pos_article_titel>
     <item_discount_pc>SO1021</item_discount_pc>
     <amount_net>212.74</amount_net>
     <amount_tax>39.11</amount_tax>
@@ -36,10 +36,10 @@
   <item position_number=2>
     <odoo_article_number>1234</odoo_article_number>
     <pos_article_number>SO1021</pos_article_number>
-    <pos_article_titel>SO1021</pos_article_titel>
+    <pos_article_titel>Reference implementation of BlueOrigin rocket engine</pos_article_titel>
     <item_discount_pc>SO1021</item_discount_pc>
-    <amount_net>212.74</amount_net>
-    <amount_tax>39.11</amount_tax>
-    <amount_gross>251.85</amount_gross>
+    <amount_net>212200932.74</amount_net>
+    <amount_tax>390091.11</amount_tax>
+    <amount_gross>212591023.85</amount_gross>
   </item>
 </Order>
