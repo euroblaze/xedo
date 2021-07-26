@@ -1,0 +1,24 @@
+  <customer id=xy_12345>
+    <firstname>Сашо</firstname>
+    <lastname>Müller</lastname>
+    <phone>00499876543210</phone>
+    <mobile>00499876543210</mobile>
+    <email>mueller@company.de</email>
+    <company>Müller GmbH</company>
+    <billing_address>
+      <street></street>
+      <house_number></house_number>
+      <additional_street></additional_street>
+      <postal_code></postal_code>
+      <city></city>
+      <country></country>
+    </billing_address>
+    <shipping_address>
+      <street></street>
+      <house_number></house_number>
+      <additional_street></additional_street>
+      <postal_code></postal_code>
+      <city></city>
+      <country></country>
+    </shipping_address>
+  </customer>
