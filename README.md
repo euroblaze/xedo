@@ -23,7 +23,7 @@ https://github.com/euroblaze/xedo/blob/v1.0/product.xml
 
 ### Reference order.xml
 
-This is the initial XML structure for one order exported from odoo (random_system --> odoo):
+This is the initial XML structure for one order exported from odoo (random_system -> odoo):
 https://github.com/euroblaze/xedo/blob/v1.0/order.xml
 
 ## Sponsor
