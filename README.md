@@ -26,6 +26,8 @@ https://github.com/euroblaze/xedo/blob/v1.0/product.xml
 This is the initial XML structure for one order exported from odoo (random_system -> odoo):
 https://github.com/euroblaze/xedo/blob/v1.0/order.xml
 
+`<foreign_erp_key>` is an optional node where the ID of the order in a connected ERP can be stored.
+
 ## Sponsor
 
 Simplify-ERP®, inspired by its experiences in the E-Commerce industry initiated the development of XEDO, including the initial definitions of XML, and a reference implementation for E-Commerce companies.
