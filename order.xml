@@ -4,6 +4,7 @@
   <order_date>2017-05-11 12:15:37</order_date>
   <order_discount_pc>10</order_discount_pc>
   <shipping_cost></shipping_cost>
+  <currency></currency>
   <customer id=xy_12345>
     <firstname>Сашо</firstname>
     <lastname>Müller</lastname>
