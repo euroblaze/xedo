@@ -27,6 +27,7 @@ This is the initial XML structure for one order exported from odoo (random_syste
 https://github.com/euroblaze/xedo/blob/v1.0/order.xml
 
 `<foreign_erp_key>` is an optional node where the ID of the order in a connected ERP can be stored.
+`channel_id` is the ID of the sales channel where this SaleOrder originated.
 
 ## Sponsor
 
