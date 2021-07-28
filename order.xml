@@ -1,4 +1,4 @@
-<Order id=abc1234 pos_id=sw_12>
+<Order id=abc1234 channel_id=sw_12>
   <payment_status>invoiced</payment_status>
   <shipping_status>unshipped</shipping_status>
   <order_date>2017-05-11 12:15:37</order_date>
