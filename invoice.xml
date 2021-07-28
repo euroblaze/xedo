@@ -1,0 +1,47 @@
+<Invoice id=abc1234 saleorder_id=SO/2021/001>
+  <payment_status>invoiced</payment_status>
+  <shipping_status>unshipped</shipping_status>
+  <invoice_date>2017-05-11 12:15:37</invoice_date>
+  <invoice_discount_pc>10</invoice_discount_pc>
+  <shipping_cost></shipping_cost>
+  <currency></currency>
+  <foreign_erp_key></foreign_erp_key>
+  <customer id=xy_12345>
+    <firstname>Сашо</firstname>
+    <lastname>Müller</lastname>
+    <billing_address>
+      <street></street>
+      <house_number></house_number>
+      <additional_street></additional_street>
+      <postal_code></postal_code>
+      <city></city>
+      <country></country>
+    </billing_address>
+    <shipping_address>
+      <street></street>
+      <house_number></house_number>
+      <additional_street></additional_street>
+      <postal_code></postal_code>
+      <city></city>
+      <country></country>
+    </shipping_address>
+  </customer>
+  <item position_number=1>
+    <odoo_article_number>1234</odoo_article_number>
+    <pos_article_number>SO1021</pos_article_number>
+    <pos_article_titel>SO1021</pos_article_titel>
+    <item_discount_pc>SO1021</item_discount_pc>
+    <amount_net>212.74</amount_net>
+    <amount_tax>39.11</amount_tax>
+    <amount_gross>251.85</amount_gross>
+  </item>
+  <item position_number=2>
+    <odoo_article_number>1234</odoo_article_number>
+    <pos_article_number>SO1021</pos_article_number>
+    <pos_article_titel>SO1021</pos_article_titel>
+    <item_discount_pc>SO1021</item_discount_pc>
+    <amount_net>212.74</amount_net>
+    <amount_tax>39.11</amount_tax>
+    <amount_gross>251.85</amount_gross>
+  </item>
+</Order>
