@@ -5,6 +5,7 @@
   <order_discount_pc>10</order_discount_pc>
   <shipping_cost></shipping_cost>
   <currency></currency>
+  <foreign_erp_key></foreign_erp_key>
   <customer id=xy_12345>
     <firstname>Сашо</firstname>
     <lastname>Müller</lastname>
