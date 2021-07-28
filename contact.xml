@@ -6,6 +6,7 @@
     <email>mueller@company.de</email>
     <company>Müller GmbH</company>
     <vat_number>DE123456789</vat_number>
+    <foreignkey_id></foreignkey_id>
     <billing_address>
       <street></street>
       <house_number></house_number>
