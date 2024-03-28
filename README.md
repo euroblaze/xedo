@@ -1,4 +1,4 @@
-# XEDO – XML ERP Dataexchange for odoo
+# XEDO – ~XML~ ERP Dataexchange for odoo
 
 ## Why XEDO?
 
