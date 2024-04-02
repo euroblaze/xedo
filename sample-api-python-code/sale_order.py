@@ -15,7 +15,7 @@ model_name = 'sale.order'
 
 def create_sale_order():
     sale_order_data = {
-        'partner_id': 1,  # Replace with the desired partner ID
+        'partner_id': 3,  # Replace with the desired partner ID
         'order_line': [
             (0, 0, {
                 'product_id': 1,  # Replace with the desired product ID
@@ -30,7 +30,7 @@ def create_sale_order():
 
 def read_sale_orders():
     sale_order_ids = models.execute_kw(db, uid, password, model_name, 'search', [[]])
-    sale_orders = models.execute_kw(db, uid, password, model_name, 'read', [sale_order_ids], ['name', 'partner_id', 'amount_total'])
+    sale_orders = models.execute_kw(db, uid, password, model_name, 'read', [sale_order_ids], {'fields': ['name', 'partner_id', 'amount_total']})
     print("Sale Orders:")
     for sale_order in sale_orders:
         partner_id, partner_name = sale_order['partner_id']
@@ -38,16 +38,16 @@ def read_sale_orders():
 
 
 def update_sale_order():
-    sale_order_id = 1  # Replace with the desired sale order ID
+    sale_order_id = 3  # Replace with the desired sale order ID
     sale_order_data = {
-        'partner_id': 2,  # Replace with the desired partner ID
+        'partner_id': 3,  # Replace with the desired partner ID
     }
     models.execute_kw(db, uid, password, model_name, 'write', [[sale_order_id], sale_order_data])
     print(f"Sale Order with ID {sale_order_id} updated successfully")
 
 
 def delete_sale_order():
-    sale_order_id = 1  # Replace with the desired sale order ID
+    sale_order_id = 4  # Replace with the desired sale order ID
     models.execute_kw(db, uid, password, model_name, 'unlink', [[sale_order_id]])
     print(f"Sale Order with ID {sale_order_id} deleted successfully")
 

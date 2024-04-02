@@ -25,7 +25,7 @@ def create_stock_quant():
 
 def read_stock_quants():
     stock_quant_ids = models.execute_kw(db, uid, password, model_name, 'search', [[]])
-    stock_quants = models.execute_kw(db, uid, password, model_name, 'read', stock_quant_ids, ['product_id', 'location_id', 'quantity'])
+    stock_quants = models.execute_kw(db, uid, password, model_name, 'read', stock_quant_ids, {'fields': ['product_id', 'location_id', 'quantity']})
     print("Stock Quants:")
     for stock_quant in stock_quants:
         product_id, product_name = stock_quant['product_id']

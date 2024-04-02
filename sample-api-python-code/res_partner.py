@@ -25,14 +25,14 @@ def create_partner():
 
 def read_partners():
     partner_ids = models.execute_kw(db, uid, password, model_name, 'search', [[]])
-    partners = models.execute_kw(db, uid, password, model_name, 'read', [partner_ids], ['name', 'email', 'phone'])
+    partners = models.execute_kw(db, uid, password, model_name, 'read', [partner_ids], {'fields': ['name', 'email', 'phone']})
     print("Partners:")
     for partner in partners:
         print(f"Name: {partner['name']}, Email: {partner['email']}, Phone: {partner['phone']}")
 
 
 def update_partner():
-    partner_id = 1  # Replace with the desired partner ID
+    partner_id = 14  # Replace with the desired partner ID
     partner_data = {
         'name': 'Updated Partner Name',
         'phone': '9876543210',
@@ -42,7 +42,7 @@ def update_partner():
 
 
 def delete_partner():
-    partner_id = 1  # Replace with the desired partner ID
+    partner_id = 14  # Replace with the desired partner ID
     models.execute_kw(db, uid, password, model_name, 'unlink', [[partner_id]])
     print(f"Partner with ID {partner_id} deleted successfully")
 

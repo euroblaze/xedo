@@ -26,7 +26,7 @@ def create_product():
 
 def read_products():
     product_ids = models.execute_kw(db, uid, password, model_name, 'search', [[]])
-    products = models.execute_kw(db, uid, password, model_name, 'read', [product_ids], ['name', 'categ_id', 'list_price', 'weight'])
+    products = models.execute_kw(db, uid, password, model_name, 'read', [product_ids], {'fields': ['name', 'categ_id', 'list_price', 'weight']})
     print("Product Templates:")
     for product in products:
         category_id, category_name = product['categ_id']
